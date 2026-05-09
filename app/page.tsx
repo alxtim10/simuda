@@ -396,7 +396,7 @@ export default function Home() {
               }}>
                 <div style={{ fontSize: "4rem" }}>🔥</div>
                 <div>
-                  <div style={{ fontWeight: 800, fontSize: "1.6rem", letterSpacing: "-0.04em", marginBottom: 8 }}>15+ Years<br />of Real Impact</div>
+                  <div style={{ fontWeight: 800, fontSize: "1.6rem", letterSpacing: "-0.04em", marginBottom: 8 }}>6 Years<br />of Real Impact</div>
                   <div style={{ fontFamily: "Epilogue, sans-serif", fontWeight: 300, color: "rgba(240,237,230,0.45)", fontSize: "0.9rem" }}>100+ members. Countless stories.</div>
                 </div>
                 <div style={{
