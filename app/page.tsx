@@ -181,11 +181,13 @@ export default function Home() {
         transition: "all 0.4s ease",
         display: "flex", alignItems: "center", justifyContent: "space-between",
       }}>
-        {/* <div style={{ fontSize: "1.35rem", fontWeight: 800, letterSpacing: "-0.04em", cursor: "pointer" }} onClick={() => scrollTo("hero")}>
-          <span style={{ color: "#FF6B35" }}>●</span> Youth<span style={{ color: "#FF6B35" }}>.</span>
-        </div> */}
-        <div>
-          <Image src="/logo.png" alt="logo" width={50} height={50} />
+        <div className="flex items-center justify-center gap-5">
+          <div>
+            <Image src="/logo.png" alt="logo" width={30} height={30} />
+          </div>
+          <div style={{ fontSize: "1.35rem", fontWeight: 800, letterSpacing: "-0.04em", cursor: "pointer" }} onClick={() => scrollTo("hero")}>
+            <span style={{ color: "#FF6B35" }}>●</span> SIMUDA<span style={{ color: "#FF6B35" }}>.</span>
+          </div>
         </div>
         <div style={{ display: "flex", gap: "2.5rem", alignItems: "center" }}>
           {["About", "Programs", "Contact"].map(l => (
@@ -538,11 +540,16 @@ export default function Home() {
         borderTop: "1px solid rgba(255,255,255,0.05)", padding: "40px 40px",
         display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 20,
       }}>
-        <div style={{ fontSize: "1.2rem", fontWeight: 800, letterSpacing: "-0.04em" }}>
-          <span style={{ color: "#FF6B35" }}>●</span> Youth<span style={{ color: "#FF6B35" }}>.</span>
+        <div className="flex items-center justify-center gap-5">
+          <div>
+            <Image src="/logo.png" alt="logo" width={30} height={30} />
+          </div>
+          <div style={{ fontSize: "1.35rem", fontWeight: 800, letterSpacing: "-0.04em", cursor: "pointer" }} onClick={() => scrollTo("hero")}>
+            <span style={{ color: "#FF6B35" }}>●</span> SIMUDA<span style={{ color: "#FF6B35" }}>.</span>
+          </div>
         </div>
         <div style={{ fontFamily: "Epilogue, sans-serif", fontSize: "0.78rem", color: "rgba(240,237,230,0.25)", letterSpacing: "0.04em" }}>
-          © 2026 Youth Community. All rights reserved.
+          © 2026 SIMUDA - Komisi Pemuda GKI Grand Wisata. All rights reserved.
         </div>
         <div style={{ display: "flex", gap: "2rem" }}>
           {["About", "Programs", "Contact"].map(l => (
